@@ -1,11 +1,9 @@
-app = "attach"
+# fly.toml file generated for nameless-sun-2704 on 2022-09-02T13:56:42-04:00
+
+app = "nameless-sun-2704"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
-
-[mounts]
-  source="stats_data"
-  destination="/app/data"
 
 [env]
 
